@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bars__menu{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(6);
+    cursor: pointer;
+}
+
+.bars__menu span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #9A00BF;
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    transition: all 300ms;
+}
+
+.activeline1__bars-menu{
+    transform: rotate(45deg) translate(-2px, 1px); 
+}
+
+.activeline2__bars-menu{
+    opacity: 0;
+    margin-left: -30px; 
+}
+
+.activeline3__bars-menu{
+    transform: rotate(-45deg) translate(-4px, 2px);
+}
